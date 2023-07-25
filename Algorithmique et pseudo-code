@@ -1,0 +1,11 @@
+Debut acheterBonbons (entier argent)
+
+  si argent > 12,47
+	  retourner "revient avec plus d'argent"
+  Fin Si
+  Tant que argent < 12,47
+	  argent ← bonbon x 1,14
+  Fin Tant que
+  retourner "Tu peux acheter tes bonbons"
+
+fin acheterBonbons 
